@@ -11,15 +11,15 @@ import time
 
 # Define keypad layout
 KEYPAD = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
-    ['*', 0, '#']
+    [1, 2, 3, 'A'],
+    [4, 5, 6, 'B'],
+    [7, 8, 9, 'C'],
+    ['*', 0, '#', 'D']
 ]
 
 # Define GPIO pins for rows and columns
 ROWS = [4, 17, 27, 22]
-COLS = [5, 6, 13]
+COLS = [5, 6, 13, 19]
 
 # Initialize GPIO
 GPIO.setmode(GPIO.BCM)
