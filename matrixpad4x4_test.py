@@ -55,6 +55,7 @@ def get_key():
 
 try:
     while True:
+        print("Reading...")
         pressed_key = get_key()
 
         if pressed_key is not None:
